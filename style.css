@@ -1,0 +1,90 @@
+/* Styling general */
+body {
+    background: linear-gradient(135deg, #b28317, #7e7e81); /* Fundal gradient */
+    font-family: 'Arial', sans-serif;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centrare orizontală */
+    align-items: center; /* Centrare verticală */
+    height: 100vh; /* Asigură că ocupă întreaga înălțime a ferestrei */
+}
+
+/* #game container */
+#game {
+    max-width: 500px;
+    max-height: 600px;
+    background-color: #ffffff;
+    color: #0a0a23;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* Text area */
+#text {
+    background-color: #0a0a23;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* Controls and Stats */
+#controls, #stats {
+    border: 1px solid #0a0a23;
+    padding: 10px;
+    color: #0a0a23;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #f5f5f5; /* Fundal mai deschis */
+}
+
+/* Monster Stats */
+#monsterStats {
+    display: none;
+    border: 1px solid #0a0a23;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #feac32;
+    border-radius: 5px;
+}
+
+/* Stat labels */
+.stat {
+    padding-right: 10px;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Buttons */
+button {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #feac32;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border: 3px solid #feac32;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #ffac33;
+    transform: scale(1.05);
+}
+
+/* Button active effect */
+button:active {
+    background-color: #ff9c00;
+    transform: scale(1);
+}
